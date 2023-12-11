@@ -1,0 +1,6 @@
+[ 2023-12-11 20:17:29,683 ] 96 werkzeug - WARNING -  * Debugger is active!
+[ 2023-12-11 20:17:29,690 ] 96 werkzeug - INFO -  * Debugger PIN: 782-199-451
+[ 2023-12-11 20:17:29,775 ] 96 werkzeug - WARNING -  * Debugger is active!
+[ 2023-12-11 20:17:29,782 ] 96 werkzeug - INFO -  * Debugger PIN: 782-199-451
+[ 2023-12-11 20:18:00,404 ] 96 werkzeug - INFO -  * Detected change in 'c:\\users\\91985\\desktop\\123\\projects\\ml\\waferfault_detection\\src\\components\\data_transformation.py', reloading
+[ 2023-12-11 20:18:06,553 ] 96 werkzeug - INFO -  * Detected change in 'c:\\users\\91985\\desktop\\123\\projects\\ml\\waferfault_detection\\src\\components\\data_transformation.py', reloading

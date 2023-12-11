@@ -1,0 +1,3 @@
+[ 2023-12-11 20:16:06,073 ] 96 werkzeug - WARNING -  * Debugger is active!
+[ 2023-12-11 20:16:06,073 ] 96 werkzeug - INFO -  * Debugger PIN: 782-199-451
+[ 2023-12-11 20:17:25,807 ] 96 werkzeug - INFO -  * Detected change in 'C:\\Users\\91985\\Desktop\\123\\Projects\\ML\\Waferfault_detection\\src\\components\\data_transformation.py', reloading

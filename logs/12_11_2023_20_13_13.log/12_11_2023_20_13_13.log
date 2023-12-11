@@ -1,0 +1,350 @@
+[ 2023-12-11 20:13:16,322 ] 96 werkzeug - WARNING -  * Debugger is active!
+[ 2023-12-11 20:13:16,324 ] 96 werkzeug - INFO -  * Debugger PIN: 782-199-451
+[ 2023-12-11 20:13:21,295 ] 92 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2023-12-11 20:13:21,295 ] 60 root - INFO - Exporting data from mongodb
+[ 2023-12-11 20:13:23,934 ] 69 root - INFO - Saving exported data into feature store file path: artifacts
+[ 2023-12-11 20:13:24,014 ] 98 root - INFO - Got the data from mongodb
+[ 2023-12-11 20:13:24,014 ] 101 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2023-12-11 20:13:24,018 ] 99 root - INFO - Entered initiate_data_transformation method of Data_Transformation class
+[ 2023-12-11 20:13:24,306 ] 39 root - INFO - Entered the save_object method of MainUtils class
+[ 2023-12-11 20:13:24,312 ] 45 root - INFO - Exited the save_object method of MainUtils class
+[ 2023-12-11 20:13:24,312 ] 145 root - INFO - Splitting training and testing input and target feature
+[ 2023-12-11 20:13:24,312 ] 156 root - INFO - Extracting model config file path
+[ 2023-12-11 20:13:24,314 ] 163 root - INFO - Extracting model config file path
+[ 2023-12-11 20:13:49,447 ] 96 werkzeug - INFO -  * Detected change in 'c:\\users\\91985\\desktop\\123\\projects\\ml\\waferfault_detection\\src\\pipeline\\predict_pipeline.py', reloading
+[ 2023-12-11 20:13:49,648 ] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x2a8164644c0 state=finished returned list>
+Traceback (most recent call last):
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 814, in __call__
+    self._dispatch_new()
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 829, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1395, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1462, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1384, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\_parallel_backends.py", line 600, in apply_async
+    future = self._workers.submit(func)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
+[ 2023-12-11 20:13:49,683 ] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x2a816464940 state=finished returned list>
+Traceback (most recent call last):
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 814, in __call__
+    self._dispatch_new()
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 829, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1395, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1462, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1384, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\_parallel_backends.py", line 600, in apply_async
+    future = self._workers.submit(func)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
+[ 2023-12-11 20:13:50,611 ] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x2a8167d3130 state=finished returned list>
+Traceback (most recent call last):
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 814, in __call__
+    self._dispatch_new()
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 829, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1395, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1462, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1384, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\_parallel_backends.py", line 600, in apply_async
+    future = self._workers.submit(func)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
+[ 2023-12-11 20:13:50,658 ] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x2a8164640a0 state=finished returned list>
+Traceback (most recent call last):
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 814, in __call__
+    self._dispatch_new()
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 829, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1395, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1462, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1384, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\_parallel_backends.py", line 600, in apply_async
+    future = self._workers.submit(func)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
+[ 2023-12-11 20:13:50,674 ] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x2a8167d34c0 state=finished returned list>
+Traceback (most recent call last):
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 814, in __call__
+    self._dispatch_new()
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 829, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1395, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1462, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1384, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\_parallel_backends.py", line 600, in apply_async
+    future = self._workers.submit(func)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
+[ 2023-12-11 20:13:50,674 ] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x2a81643f430 state=finished returned list>
+Traceback (most recent call last):
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 814, in __call__
+    self._dispatch_new()
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 829, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1395, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1462, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1384, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\_parallel_backends.py", line 600, in apply_async
+    future = self._workers.submit(func)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
+[ 2023-12-11 20:13:51,289 ] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x2a815b88b80 state=finished returned list>
+Traceback (most recent call last):
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 814, in __call__
+    self._dispatch_new()
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 829, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1395, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1462, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1384, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\_parallel_backends.py", line 600, in apply_async
+    future = self._workers.submit(func)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
+[ 2023-12-11 20:13:51,321 ] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x2a8164646a0 state=finished returned list>
+Traceback (most recent call last):
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 814, in __call__
+    self._dispatch_new()
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 829, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1395, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1462, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1384, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\_parallel_backends.py", line 600, in apply_async
+    future = self._workers.submit(func)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
+[ 2023-12-11 20:13:51,396 ] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x2a814f7c880 state=finished returned list>
+Traceback (most recent call last):
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 814, in __call__
+    self._dispatch_new()
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 829, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1395, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1462, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1384, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\_parallel_backends.py", line 600, in apply_async
+    future = self._workers.submit(func)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
+[ 2023-12-11 20:13:51,427 ] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x2a8167d3730 state=finished returned list>
+Traceback (most recent call last):
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 814, in __call__
+    self._dispatch_new()
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 829, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1395, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1462, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1384, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\_parallel_backends.py", line 600, in apply_async
+    future = self._workers.submit(func)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
+[ 2023-12-11 20:13:51,591 ] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x2a815b88d00 state=finished returned list>
+Traceback (most recent call last):
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 814, in __call__
+    self._dispatch_new()
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 829, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1395, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1462, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1384, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\_parallel_backends.py", line 600, in apply_async
+    future = self._workers.submit(func)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
+[ 2023-12-11 20:13:51,661 ] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x2a81670bc10 state=finished returned list>
+Traceback (most recent call last):
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 814, in __call__
+    self._dispatch_new()
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 829, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1395, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1462, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1384, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\_parallel_backends.py", line 600, in apply_async
+    future = self._workers.submit(func)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
+[ 2023-12-11 20:13:52,103 ] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x2a816459910 state=finished returned list>
+Traceback (most recent call last):
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 814, in __call__
+    self._dispatch_new()
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 829, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1395, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1462, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1384, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\_parallel_backends.py", line 600, in apply_async
+    future = self._workers.submit(func)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
+[ 2023-12-11 20:13:52,161 ] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x2a814f7c070 state=finished returned list>
+Traceback (most recent call last):
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 814, in __call__
+    self._dispatch_new()
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 829, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1395, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1462, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1384, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\_parallel_backends.py", line 600, in apply_async
+    future = self._workers.submit(func)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
+[ 2023-12-11 20:13:52,494 ] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x2a816459850 state=finished returned list>
+Traceback (most recent call last):
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 814, in __call__
+    self._dispatch_new()
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 829, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1395, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1462, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1384, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\_parallel_backends.py", line 600, in apply_async
+    future = self._workers.submit(func)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
+[ 2023-12-11 20:13:52,508 ] 28 concurrent.futures - ERROR - exception calling callback for <Future at 0x2a816459340 state=finished returned list>
+Traceback (most recent call last):
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 814, in __call__
+    self._dispatch_new()
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 829, in _dispatch_new
+    self.parallel.dispatch_next()
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1395, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1462, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\parallel.py", line 1384, in _dispatch
+    job = self._backend.apply_async(batch, callback=batch_tracker)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\_parallel_backends.py", line 600, in apply_async
+    future = self._workers.submit(func)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\reusable_executor.py", line 225, in submit
+    return super().submit(fn, *args, **kwargs)
+  File "c:\Users\91985\Desktop\123\Projects\ML\Waferfault_detection\env\lib\site-packages\joblib\externals\loky\process_executor.py", line 1228, in submit
+    raise ShutdownExecutorError(
+joblib.externals.loky.process_executor.ShutdownExecutorError: cannot schedule new futures after shutdown
