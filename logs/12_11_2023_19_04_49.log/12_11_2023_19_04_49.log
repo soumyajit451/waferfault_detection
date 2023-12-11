@@ -1,0 +1,4 @@
+[ 2023-12-11 19:04:51,076 ] 96 werkzeug - WARNING -  * Debugger is active!
+[ 2023-12-11 19:04:51,082 ] 96 werkzeug - INFO -  * Debugger PIN: 782-199-451
+[ 2023-12-11 19:05:57,306 ] 96 werkzeug - INFO - 127.0.0.1 - - [11/Dec/2023 19:05:57] "GET / HTTP/1.1" 200 -
+[ 2023-12-11 19:05:57,456 ] 96 werkzeug - INFO - 127.0.0.1 - - [11/Dec/2023 19:05:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
