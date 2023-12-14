@@ -53,7 +53,7 @@ class PredictionPipeline:
             input_csv_file = self.request.files['file']
             pred_file_path = os.path.join(pred_file_input_dir, input_csv_file.filename)
             
-          
+            
             input_csv_file.save(pred_file_path)
 
 
@@ -91,14 +91,12 @@ class PredictionPipeline:
             Version     :   1.2
             Revisions   :   moved setup to cloud
         """
-        
+   
         try:
 
             prediction_column_name : str = TARGET_COLUMN
             input_dataframe: pd.DataFrame = pd.read_csv(input_dataframe_path)
-            # Create the directory if it doesn't exist
-            os.makedirs(self.prediction_pipeline_config.prediction_output_dirname, exist_ok=True)
-
+            
             input_dataframe =  input_dataframe.drop(columns="Unnamed: 0") if "Unnamed: 0" in input_dataframe.columns else input_dataframe
 
             predictions = self.predict(input_dataframe)

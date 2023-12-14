@@ -1,4 +1,0 @@
-[ 2023-12-11 20:14:42,893 ] 96 werkzeug - WARNING -  * Debugger is active!
-[ 2023-12-11 20:14:42,899 ] 96 werkzeug - INFO -  * Debugger PIN: 782-199-451
-[ 2023-12-11 20:15:01,258 ] 96 werkzeug - INFO - 127.0.0.1 - - [11/Dec/2023 20:15:01] "GET / HTTP/1.1" 200 -
-[ 2023-12-11 20:15:45,976 ] 96 werkzeug - INFO -  * Detected change in 'c:\\users\\91985\\desktop\\123\\projects\\ml\\waferfault_detection\\src\\components\\data_ingestion.py', reloading

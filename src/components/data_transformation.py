@@ -123,7 +123,8 @@ class DataTransformation:
 
             preprocessor_path = self.data_transformation_config.transformed_object_file_path
             os.makedirs(os.path.dirname(preprocessor_path), exist_ok= True)
-            self.utils.save_object( file_path= preprocessor_path,obj= preprocessor)
+            self.utils.save_object( file_path= preprocessor_path,
+                        obj= preprocessor)
 
             train_arr = np.c_[X_train_scaled, np.array(y_train) ]
             test_arr = np.c_[ X_test_scaled, np.array(y_test) ]
